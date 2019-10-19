@@ -8,7 +8,10 @@ Within the `style-guide.md` contains the information for the color palette and f
 
 **Since this was my first project built from start to finish, I decided to steer away from frameworks such as Bootstrap, in order to get a better understanding of the correspondence between CSS and HTML.**
 
+CHECK OUT THE FINAL PRODUCT: https://terijacobs.github.io/beta-sign-up-split-Layout/
+
 
 ## Giving feedback
 
 Thanks to [Frontend Mentor](https://www.frontendmentor.io), this challenge was completely free. Please share it with anyone who will find it useful to practice on.
+
