@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+  <link rel="stylesheet" type="text/css" href="(https://fonts.google.com/specimen/Raleway)"/>
+  
+  <title>Frontend Mentor | Beta sign up split layout Challenge</title>
+<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    html, body, section, div {
+    height: 100%;
+    margin:0%;
+    }
+
+
+    body { 
+    color: black;
+    font-family: Open sans;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 150%;
+    text-align: center;
+    
+    }
+
+    article {
+    position: relative;
+    top: 55%;
+    left: 50%;
+    padding: 17%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    
+    }
+
+    * {
+    box-sizing:border-box;
+    }
+
+.left-half { 
+  float:left;
+  width:40%; /* The width is 20%, by default */
+  background-image: url("images/bg-purple-intro.png");
+  background-image: linear-gradient(to bottom right,hsl(243, 87%, 12%),hsl(243, 86%, 85%));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+
+.right-half {
+  background-color:#fff;
+  float:left;
+  width:60%; /* The width is 20%, by default */
+  padding:15px;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:1440px) {
+  .left-half, .right-half {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+@media screen and (max-width: 375px) { /*mobile screen? this is not active though calling column and not the actual class of left an right half*/
+  .column {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+h1{
+    font-family: Raleway;
+    font-weight:700;
+    font-style:normal;
+    font-size: 42px;
+    padding:2px;
+    line-height:40px;
+    text-align: justify;
+    color:hsl(243, 87%, 12%);
+    
+}
+
+    .header-logo{
+        float: left;
+        padding-top:20px;
+        padding-left:20px;
+        
+    }
+
+    .social-media-icons{      
+        float:right;
+        padding-top:20px;
+        padding-right:20px;
+        
+    }
+
+    .center-content{
+        align-items:center;
+        
+    }
+
+
+    p{
+        font-family: Open Sans;
+        font-size:16px;
+        margin:-10px;
+        color:hsl(0, 0%, 50%);
+        text-align: justify;
+        padding-left:10px;
+        
+    }
+     
+
+    .registration{
+
+        text-align: left;
+        
+    }
+
+    h5{
+        margin-bottom:0px;
+        color:hsl(243, 87%, 12%);
+    }
+
+    input{
+        background-color:#fff;
+        color:#000;
+        border-radius:3px;
+        font-size:16px;
+        height:50px;
+        width:250px;
+        outline: none;
+    }
+    
+    button{
+       background-color: #4CAF50;
+       color: #fff;
+       border-radius:3px;
+       font-size: 16px;
+       height: 50px;
+       width:150px;
+       outline: none;
+
+   }
+
+   footer{ 
+        position:absolute;
+        bottom: 0;
+        right:0;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        font-size: 14px;
+       
+    }
+   
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+      
+        <div class="left-half">
+            <article>
+                <img src="images/illustration-main.png" style="width:90%; height:90%;">
+            </article>
+        </div>
+        
+         
+
+        <div class="right-half">
+            <header>
+                    <div class="header-logo">
+                        <img src="images/logo.png" style="width:130px;height:40px;">
+                    </div>
+                    <div class="social-media-icons">
+                        <a href="#"><img src="images/twitter-black-shape.png" style="width:20px;height:20px;"></a>
+                        <a href="#"><img src="images/icons8-facebook-f-24.png" style="width:20px;height:20px;"></a>
+                        <a href="#"><img src="images/icons8-envelope-24.png" style="width:20px;height:20px;"></a>
+                    </div> 
+            </header> 
+            <article>            
+                <div>
+                    <div class="center-content">
+                        <h1>All your files in one secure</br>location, accessible anywhere.</h1>
+                        <p>Fylo stores your most important files in one secure location.</p>
+                        <p> Access them wherever you need, share and collaborate with</p>
+                        <p>friends, family and co-workers</p>
+                        
+                    </div>
+                    <div class="registration">
+                        <h5>Sign up for early access</h5>
+                        <input type="email" name="emailaddress">
+                        <button type="button">Sign Up</button>
+                    </div>
+                    
+                </div>
+            </article>
+            <footer>
+                <div class="footer-link">
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </footer>
+        </div>
+
+  </div>
+</body>
+</html>
