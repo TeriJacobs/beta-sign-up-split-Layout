@@ -6,7 +6,7 @@ The designs are in JPG static format, opposed to including Sketch (or other simi
 
 Within the `style-guide.md` contains the information for the color palette and fonts.
 
-**Since this was my first project built from start to finish, I decided to steer away from frameworks such as Bootstrap, in order to get a better understanding  and correspondence between CSS and HTML.**
+**Since this was my first project built from start to finish, I decided to steer away from frameworks such as Bootstrap, in order to get a better understanding of the correspondence between CSS and HTML.**
 
 
 ## Giving feedback
